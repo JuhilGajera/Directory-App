@@ -117,7 +117,7 @@ export default function Directory() {
                                     <p className='boxData'> Mobile Number:<span className='TXT'> {searchedData['Mobile Number']}</span> </p>
                                     <p className='boxData'> Age:<span className='TXT'> {searchedData['Age']}</span> </p>
                                 </div>
-                                : null
+                                : <h3 style={{ marginLeft: '2%' }}>No data found.</h3>
                             }
                         </div>
                     }
