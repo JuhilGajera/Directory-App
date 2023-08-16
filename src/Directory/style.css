@@ -1,0 +1,101 @@
+.Header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 100vw;
+  color: white;
+  background-color: #082567;
+}
+.btnContainer {
+  height: 80px;
+  width: 85%;
+  margin-left: 7.5%;
+  display: flex;
+  align-items: center;
+}
+.mainBtn {
+  margin-left: 50px;
+  border: none;
+  background-color: #082567;
+  color: white;
+  height: 5vh;
+  width: 10vw;
+  border-radius: 3px;
+}
+.mainBtn:hover {
+  background-color: aliceblue;
+  color: black;
+  border-radius: 3px;
+}
+.Container {
+  height: 100%;
+  width: 85%;
+  margin-left: 7.5%;
+  background-color: aliceblue;
+  border: 2px solid #082567;
+  border-radius: 3px;
+}
+.page {
+  height: 60px;
+  width: 15vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-right: 2px solid #082567;
+  border-bottom: 2px solid #082567;
+  margin-bottom: 3vh;
+}
+.actions {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: none;
+}
+.data-table {
+  border-collapse: collapse;
+  width: 96%;
+  margin-left: 2%;
+}
+.data-table th,
+.data-table td {
+  border: 2px solid white;
+  padding: 8px;
+  text-align: center;
+  color: white;
+}
+
+.data-table th {
+  background-color: #082567;
+}
+.footer {
+  width: 96%;
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 5vh;
+  margin-left: 2%;
+  margin-bottom: 3%;
+}
+.box {
+  height: 250px;
+  width: 250px;
+  border: 2px solid #082567;
+  margin-left: 2%;
+  margin-top: 2%;
+  display: flex;
+  flex-direction: column;
+  padding-left: 15px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  justify-content: space-evenly;
+}
+.boxData {
+  font-weight: 800;
+}
+.TXT {
+  font-weight: 500;
+}
+.box:hover {
+  background-color: #082567;
+  color: white;
+}
